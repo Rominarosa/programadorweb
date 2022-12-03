@@ -1,0 +1,36 @@
+h1{
+    background-color: grey;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+}
+img{
+    margin:0 auto;
+    display: block;
+    filter: grayscale(100%) sepia(27%) brightness(117%) hue-rotate(2deg)
+  }
+h2{background-color:darkgrey;
+    text-align: left;
+    font-family: Verdana;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+    font-style: italic;
+    font-family: Lucida Sans;
+    color: darkblue;
+}
+ul{
+    font-size: medium;
+    font-style: italic;
+    font-family: Lucida Sans;
+    color: darkblue;
+}
+ol{
+    font-size:medium ;
+    font-style: italic;
+    font-family: lucida Sans;
+    color: darkblue;
+}
+.destacados{color:cyan;text-decoration: dashed   
+}
