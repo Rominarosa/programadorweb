@@ -27,6 +27,7 @@ h1 {
     font-variant: black;
     font-size: large;
     font-weight: 800;
+    padding: 20px  0;
 }
 
 /* cambiar color y mas fuertr la letra */
@@ -224,5 +225,5 @@ html{
     scroll-behavior: smooth;
 }
 .scroll_section{
-    scroll-margin-top: 200px;
+    scroll-margin-top: 60px;
 }
