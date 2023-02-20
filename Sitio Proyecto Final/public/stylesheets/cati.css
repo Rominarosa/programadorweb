@@ -1,0 +1,229 @@
+/*
+font-family: 'Arima', cursive;
+font-family: 'Pacifico', cursive;   
+*/
+footer {
+    background-color: rgba(128, 128, 128, 0.838);
+    font-family: 'Josefin Slab', serif;
+    font-weight: 180;
+    font-variant: black;
+    font-size: medium;
+    color: azure;
+}
+
+h4 {
+    background-color: #e3f2fd;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-variant: black;
+    font-size: medium;
+
+}
+
+h1 {
+    background-color: #e3f2fd;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-variant: black;
+    font-size: large;
+    font-weight: 800;
+    padding: 20px  0;
+}
+
+/* cambiar color y mas fuertr la letra */
+nav.navbar ul.nav li {
+    font-family: 'Arima', cursive;
+
+}
+
+
+.nav.navbar {
+    background-color: #e3f2fd;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+
+}
+
+.nav-item {
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+    font-family: 'Arima', cursive;
+}
+
+
+
+.hero {
+    background: url(/images/foto1.png) no-repeat;
+    background-size: cover;
+    height: 40vh;
+    min-height: 650px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.texto-encima {
+    font-family: 'Arima', cursive;
+    position: relative;
+    text-align: center;
+    top: 50px;
+    left: 10px;
+    right: 10px;
+    font-weight: 200;
+    font-size: 80px;
+    text-shadow: 9px -29px 5px rgba(0,0,0,0.4);
+    
+
+}
+
+img {
+    width: 150px;
+    height: 650px;
+    padding: 10px;
+}
+
+
+.galeria img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0%;
+}
+
+.galeria {
+    padding: 10px;
+    margin-bottom: 0%;
+}
+
+.imagen-principal img {
+    object-fit: cover;
+    width: 100%;
+    width: 1500px;
+    height: 550px;
+    padding: 0px;
+    margin-bottom: 0%;
+    display: block;
+}
+
+.lista-imagenes img {
+    object-fit: cover;
+    width: 100%;
+    margin-right: 5px;
+    display: block;
+    width: 1500px;
+    height: 760px;
+}
+
+.lista-imagenes {
+    margin-bottom: 0%;
+    display: flex;
+    overflow-y: auto;
+    width: 1500px;
+    height: 750px;
+    padding: 10px;
+}
+
+/* cambiar la posicion de los sliders */
+.carousel-indicators {
+    position: relative;
+    bottom: -8rem;
+}
+
+/* Es la CAJA VERDE */
+.promociones {
+    border: 20px dotted #5054ff;
+    background: rgba(126, 247, 145, 0.78);
+    padding-bottom: 4rem !important;
+    padding-top: 4rem;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    margin-bottom: 10px;
+
+}
+
+.promocion {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+p {
+    font-size: large;
+    color: darkmagenta;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.6);
+    color: blue;
+    font-size: xx-large;
+
+}
+
+h5 {
+    color: beige;
+    font-size: x-large;
+}
+
+
+/* Es la seccion celeste, no cambia la posicion de la caja verde. NO TOCAR */
+#promociones {
+    font-family: pacifico, cursive;
+    font-size: large;
+    text-size-adjust: inherit;
+    color: rgba(0, 0, 0, 0.278);
+
+}
+
+#contactanos p {
+    font-family: pacifico, cursive;
+    font-size: large;
+    text-size-adjust: inherit;
+    color: rgba(0, 0, 0, 0.278);
+
+}
+
+.accordion-body {
+    font-family: pacifico, cursive;
+    font-size: medium;
+    text-size-adjust: inherit;
+    color: rgba(0, 0, 0, 0.278);
+}
+
+.accordion-button {
+    font-family: 'Arima', cursive;
+    color: rgba(0, 0, 0, 0.99);
+}
+
+.clearfix p {
+    font-family: pacifico, cursive;
+    font-size: large;
+    text-size-adjust: inherit;
+    color: rgba(0, 0, 0, 0.278);
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+#nosotros p {
+    font-family: pacifico, cursive;
+    font-size: large;
+    text-size-adjust: inherit;
+    color: rgba(0, 0, 0, 0.278);
+    justify-content: center;
+    padding-top: 15rem;
+}
+
+#indumentaria-y-accesorios {
+    padding-top: 15rem;
+}
+
+#nuestros-productos {
+    padding-top: 15rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+.scroll_section{
+    scroll-margin-top: 60px;
+}
