@@ -7,13 +7,13 @@ router.get('/', function (req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.post('/', async(req, res, next) => {
+router.post('/', async (req, res, next) => {
   console.log(req.body)
-});
+
 
 var nombre = req.body.nombre;
 var apellido = req.body.apellido;
-var teléfono = req.body.telefono;
+var telefono = req.body.telefono;
 var email = req.body.email;
 var mensaje = req.body.mensaje;
 
@@ -38,4 +38,8 @@ var info = await transporter.sendMail(obj);
 res.render ('index',{
   message:'Mensaje enviado correctamente',
 });
+
+});
 // cierra peticion del post
+
+module.exports = router;
