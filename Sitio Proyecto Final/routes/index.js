@@ -20,7 +20,7 @@ var mensaje = req.body.mensaje;
 var obj = {
   to: 'romina.rosa.quintana@gmail.com',
   subject: 'Contacto desde la Web',
-  html: nombre + " " + apellido + "se cotacto a traves de la web y desea mas info a este correo" + email + ".<br> Además, realizo el siguiente comentario:" + mensaje + ".<br> su telefono es " + telefono
+  html: nombre + " " + apellido + "se cotacto a traves de la web y desea mas info a este correo:" +  email  + ". <br> Además, realizo el siguiente comentario:" + mensaje + ".<br> su telefono es " + telefono
 }//cierra var obj
 
 var transporter = nodemailer.createTransport({
