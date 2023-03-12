@@ -29,7 +29,7 @@ router.post("/", async (req, res, netx) => {
             req.session.id_usuario = data.id; //es el nombre de la columna
             req.session.nombre = data.usuario;
 
-            res.redirect("/admin/novedades");
+            res.redirect("/admin/promociones");
             
         } else {
             res.render("admin/login", {

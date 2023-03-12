@@ -38,8 +38,6 @@
     </div>
 </div>
 
-
-
 <!--Fin Indument y acc-->
 
 <!--inicio nosotros-->
@@ -119,7 +117,6 @@
     </div>
 </div>
 
-
 <!--fin nuestros productos-->
 
 
@@ -133,57 +130,44 @@
                 <div class="col-md-6 my-6">
                     <div class="rounded py-8 promociones">
                         <h2>Promociones</h2>
+                        {{#each promociones}}
                         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <div class="Promocion">
-                                        <h5>2x1</h5>
-                                        <p>Eligí 2 prendas o accesorios que más te gusten y sólo pagás la de mayor
-                                            valor.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="Promocion">
-                                        <h5>Envíos gratis</h5>
-                                        <p>Para compras superiores a los $15000.</p>
 
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
                                     <div class="Promocion">
-                                        <h5>Pagá hasta 6 cuotas sin interés</h5>
-                                        <p>Con cualquier tarjeta de crédito.</p>
-
-
+                                        <h5>{{titulo}}</h5>
+                                        <p>{{info}}</p>
                                     </div>
                                 </div>
                             </div>
-
-
-                            <button class="carousel-control-prev" type="button"
-                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button"
-                                data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+                            {{/each}}
                         </div>
 
-
-
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
 
                     </div>
+
+
                 </div>
 
             </div>
+
         </div>
+
     </div>
+
 </div>
-</div>
-</div>
+
 
 <!--fin Promociones-->
 
