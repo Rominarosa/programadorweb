@@ -1,23 +1,21 @@
-<div class="container" style="margin: 150px;">
+<div class="container" style="margin: 90px;">
     <div class="row">
         <div class="col">
-            <p style="float:left" ;>
+            <p class="text-right" ;>
                 <span>Hola {{persona}} </span>
-                <a href="/admin/login/logout" class="btn btn-danger">cerrar sesion<i
-                        class="fa-sharp fa-regular fa-person-to-door"></i></a>
+                <a href="/admin/login/logout" class="btn btn-danger"><i class="fa fa-sign-out"></i>Cerrar sesion</a>
             </p>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div>
-        <p style="float:left" ;>
-            <a href="" class="btn btn-success">Nuevo<i class="fa-thin fa-plus-large"></i></a>
-        </p>
-    </div>
     <div class="col-7">
         <h3>Listado de Promociones</h3>
+    </div>
+    <div class="col-2 text-right">
+        <a href="/admin/promociones/agregar" class="btn btn-success">
+            <i class="fa-thin fa-plus"></i>Nuevo</a>
     </div>
 </div>
 {{!---fin fila1---}}
@@ -30,7 +28,7 @@
                     <th scope="col">id</th>
                     <th scope="col">titulo</th>
                     <th scope="col">info</th>
-                    <th scope="col" class="text-right">acciones</th>
+                    <th scope="col">acciones</th>
                 </tr>
             </thead>
             <tbody>
@@ -38,13 +36,16 @@
                 <tr>
                     <th scope="row">{{id}}</th>
                     <td>{{titulo}}</td>
+                    <td>{{info}}</td>
                     <td class="text-right">
-                        <a href="" class="btn-btn-secondary"> <i class="fa fa-pencil-alt"></i></a>
-                        <a href="/admin/promociones/eliminar/{{id}}" class="btn btn-sm btn-secondary"><i class="fa fa-trash"></i></a>
+                        <a href="/admin/promociones/modificar/{{id}}" class="btn btn-sm btn-secondary"><i
+                                class="fa fa-pencil"></i></a>
+
+                        <a href="/admin/promociones/eliminar/{{id}}" class="btn btn-sm btn-secondary"><i
+                                class="fa fa-trash"></i></a>
 
                     </td>
                 </tr>
-
                 {{/each}}
             </tbody>
         </table>
