@@ -1,6 +1,6 @@
 <div class="container" style="margin: 60px auto;">
     <div class="row">
-        <div class="col-6  offset-3">
+        <div class="col-6  offset-3 text-center">
             <h1>***Modificar una promoción***</h1>
             <form method="post" action="/admin/promociones/modificar">
                 <input type="hidden" value="{{promociones.id}}" name="id">
@@ -10,7 +10,7 @@
                 </div>
                 <div class="form-group">
                     <label for="">Info</label>
-                    <textarea name="info" class="form-control">{{promociones.info}}</textarea> >
+                    <textarea name="info" class="form-control">{{promociones.info}}</textarea>
                 </div>
                 <button type="submit" class="btn btn-secondary">Modificar</button>
             </form>

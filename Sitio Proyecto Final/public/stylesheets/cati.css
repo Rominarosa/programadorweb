@@ -227,3 +227,23 @@ html{
 .scroll_section{
     scroll-margin-top: 60px;
 }
+.btn-success {
+    text-align: center;
+    padding: 10px 55px;
+    margin: 15px -335px;
+    margin-top: -80%;
+  
+}
+
+.btn-danger {
+    text-align: center;
+    padding: 10px 30px;
+    margin: 15px 310px;
+}
+
+.btn-secondary {
+    margin-top: 5%;
+    padding: 10px 55px;
+    text-align: center;
+}
+

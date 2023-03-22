@@ -2,7 +2,7 @@ var pool = require("./bd");
 
 /*sirve para listar las promociones*/
 async function getPromociones() {
-    var query = "select * from promociones";
+    var query = "select * from promociones order by id ASC";//para que acomode las nuevas promos por oden que las voy generando, segun el id asignado, de mas viejas a mas nuevas
     var rows = await pool.query(query);
     return rows;
 }
